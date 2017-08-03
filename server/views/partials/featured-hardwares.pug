@@ -1,0 +1,5 @@
+.panel.panel-primary
+    .panel-heading.text-center Featured Hardware
+    .panel-body
+        .row(ng-repeat="hardware in hardwares | filter:{featured:true}")
+            .col-md-12 {{hardware.name}}

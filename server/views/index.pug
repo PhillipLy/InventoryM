@@ -1,7 +1,18 @@
-extends ../includes/layout
+extends ../includes/layout.pug
 
 block main-content
+    .navbar.navbar-inverse.navbar-fixed-top
+        .container
+            .navbar-header
+                a.navbar-brand(href="/") Hardware Management
+                    h6 -Awesome hardware management
+            .navbar-collapse.collapse
+                ul.nav.navbar-nav
+                    li
+                        a(href="/") Home
+
     section.content
-    h1 Hi World!
         div(ng-view)
-    h2= mongoMessage
+
+    footer.container.text-center
+        p &copy; 2017 HW Management Phillip LLC.

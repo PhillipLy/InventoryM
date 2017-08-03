@@ -1,2 +1,10 @@
-h1 This is a Partial
-h2 {{ myVar }}
+.container
+    .jumbotron
+        h1 Hardware Management
+        p Welcome to HW Management! The most responsive and reliable management system on the web.
+
+    .row
+        .col-md-6
+            div(ng-include="'/partials/featured-hardwares.pug'")
+        .col-md-6
+            div(ng-include="'/partials/new-hardwares.pug'")

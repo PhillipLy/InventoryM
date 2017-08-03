@@ -1,0 +1,6 @@
+.panel.panel-primary
+    .panel-heading.text-center New Hardware
+    .panel-body
+        .row(ng-repeat="hardware in hardwares | orderBy:'published':true | limitTo:10")
+            .col-md-3 {{hardware.published | date:'MMM d'}}
+            .col-md-9 {{hardware.name}}
