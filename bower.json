@@ -1,0 +1,18 @@
+{
+  "name": "inventorym",
+  "description": "Inventory Management using MEAN stack",
+  "main": "index.js",
+  "authors": [
+    "Phillip Ly"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PhillipLy/InventoryM",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "toastr": "^2.1.3",
+    "angular": "^1.6.5",
+    "angular-resource": "^1.6.5",
+    "angular-route": "^1.6.5"
+  }
+}
