@@ -13,6 +13,7 @@
     "toastr": "^2.1.3",
     "angular": "^1.6.5",
     "angular-resource": "^1.6.5",
-    "angular-route": "^1.6.5"
+    "angular-route": "^1.6.5",
+    "bootstrap": "boostrap#^3.3.7"
   }
 }
