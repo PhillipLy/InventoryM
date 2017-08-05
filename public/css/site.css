@@ -1,9 +1,9 @@
 body {
-  padding-top: 61px;
+  padding-top: 179px;
 }
 .navbar-header a.navbar-brand {
-  margin-top: -15px;
-  margin-bottom: -20px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 .navbar-header a.navbar-brand h6 {
   color: #ccc;
@@ -19,6 +19,12 @@ footer p {
   margin-left: 10px;
 }
 .navbar-form button {
+  margin-left: 10px;
+}
+.top-padding-med {
+  padding-top: 10px;
+}
+.margin-left-med {
   margin-left: 10px;
 }
 .toast-top-right {

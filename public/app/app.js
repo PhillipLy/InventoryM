@@ -22,6 +22,9 @@ angular.module('app').config(function($routeProvider, $locationProvider) {
         .when('/profile', { templateUrl: '/partials/account/profile',
             controller: 'mvProfileCtrl', resolve: routeRoleChecks.user
         })
+        .when('/hardwares', { templateUrl: '/partials/hardware/hardware-list.pug',
+            controller: 'mvHardwareListCtrl'
+        })
 
 });
 

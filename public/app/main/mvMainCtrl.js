@@ -10,7 +10,7 @@ angular.module('app').controller('mvMainCtrl', function($scope) {
         {name: 'PRIMERGY RX2530 M4', featured: true, published: new Date('2/1/2017')},
         {name: 'ThinkSystem SR850', featured: true, published: new Date('10/7/2017')},
         {name: 'NX7700x/A4012L-2D', featured: false, published: new Date('8/1/2017')},
-        {name: ' Yingxin NF5170M4', featured: false, published: new Date('11/1/2017')},
+        {name: 'Yingxin NF5170M4', featured: false, published: new Date('11/1/2017')},
         {name: "IBM System z", featured: true, published: new Date('10/13/2017')},
         {name: 'Dell PowerEdge', featured: false, published: new Date('10/1/2017')},
         {name: 'Apple Network Server', featured: true, published: new Date('2/15/2017')},
