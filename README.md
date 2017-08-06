@@ -1,5 +1,6 @@
 # InventoryM
 **Inventory Management web application using MEAN stack (MongoDB, Express.js, Angular.js, Node.js)** 
+
 This is a personal project that I do just for fun on my free time. Will be updated with more features and tools such as firebase.
 
 **Features Implemented:**
