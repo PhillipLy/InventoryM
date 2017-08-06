@@ -15,7 +15,7 @@ module.exports = function(app, config) {
     app.set('view engine', 'pug');
     app.use(logger('dev'));
     app.use(cookieParser());
-    app.use(session({secret: 'HW Managment unicorns', resave:false,saveUninitialized:false}));
+    app.use(session({secret: 'HW Management unicorns', resave:false,saveUninitialized:false}));
 
     app.use(passport.initialize());
     app.use(passport.session());
