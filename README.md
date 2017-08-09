@@ -7,7 +7,7 @@ This is a personal project that I do just for fun on my free time. Will be updat
 - Created general layout displaying data in a view
 - Designed and Implemented UI and added data to the main page
 - Implemented authentication 
-- Security for passwords Implementation
+- Passwords security implementation
 - Enabled authorization capability for admin
 - Implemented Signup via server-side controller and model
 - Established the main layout for the hardware list that can be sorted and filtered 
